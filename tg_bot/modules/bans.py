@@ -111,7 +111,7 @@ def ban(bot: Bot, update: Update, args: List[str]) -> str:
             # Do not reply
             reply = "{} ന് ബണ്ണ് കൊടുത്തു വിട്ടിട്ടുണ്ട് !\n\n<b>Reason:</b> {}".format(mention_html(member.user.id, member.user.first_name), reason)
             bot.send_message(chat_id, reply, reply_markup=keyboard, parse_mode=ParseMode.HTML)
-            message.reply_text('Banned!', quote=False)
+     ##       message.reply_text('Banned!', quote=False)
             return log
         else:
             LOGGER.warning(update)

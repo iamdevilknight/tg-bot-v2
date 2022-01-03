@@ -40,11 +40,11 @@ Main commands available:
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """ """ ## Heya, glad to hear you want to donate!
+### It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
+### motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
+### (see his bio!). He's just a poor student, so every little helps!
+### There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -377,8 +377,8 @@ def donate(bot: Bot, update: Update):
         update.effective_message.reply_text(DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True)
 
         if OWNER_ID != 254318997 and DONATION_LINK:
-            update.effective_message.reply_text("You can also donate to the person currently running me "
-                                                "[here]({})".format(DONATION_LINK),
+            update.effective_message.reply_text("You Don't Have To Donate Me (Cz I Don't Work For You Duh.!😅)"
+                                                "\nFor Any Queries You Can Reach My Owner [Here]({})".format(DONATION_LINK),
                                                 parse_mode=ParseMode.MARKDOWN)
 
     else:
@@ -431,7 +431,7 @@ def kcfrsct_fnc(bot: Bot, update: Update):
 
 def main():
     test_handler = CommandHandler("test", test)
-    start_handler = CommandHandler("start", start, pass_args=True)
+    start_handler = CommandHandler("arambham", start, pass_args=True)
 
     help_handler = CommandHandler("sahayam", get_help)
     help_callback_handler = CallbackQueryHandler(help_button, pattern=r"help_")

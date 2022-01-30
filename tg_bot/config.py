@@ -3,7 +3,7 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = "894f663e1e289f898208e3a26f798214"
+    API_KEY = "5134942401:AAEexpY2nEM7JlLORa6noo8BHRB4NfiuADc"
     OWNER_ID = "598719108"  # If you dont know, run the bot and do /id in your private chat with it
     OWNER_USERNAME = "MasterOfTG"
 

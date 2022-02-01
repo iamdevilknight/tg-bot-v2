@@ -23,18 +23,19 @@
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "20516707"
+      "value": "598719108"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "SonOfLars"
+      "value": "MasterOfTG"
     },
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode messages",
       "value": "ANYTHING"
     },
     "URL": {
-      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/"
+      "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
+      "value" : "https://<appname>.herokuapp.com/"
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
@@ -54,7 +55,7 @@
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "https://www.paypal.me/PaulSonOfLars"
+      "value": "https://telegram.me/MasterOfTG"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
@@ -74,7 +75,7 @@
     },
     "BAN_STICKER": {
       "description": "Which sticker to use when banning people. Use https://telegram.dog/ShowJsonBot to get the file_id",
-      "value": "CAADBQADfQADv7rGI0wxx1ORU7UzAg",
+      "value": "CAACAgUAAxkBAAELV_RhHKkx0J7OA8dW-R54eIoIWWvBFAACkAMAAjTZ6VStsI_6u6Yx1CAE",
       "required": false
     },
     "BMERNU_SCUT_SRELFTI": {
